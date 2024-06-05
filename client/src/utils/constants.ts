@@ -3,6 +3,6 @@
 import abi from "./Transactions.json";
 
 //合约地址
-export const contractAddress = "0xfCCF80344a668b72ac4Be23513F0E9E4a35C84fA";
+export const contractAddress = "0x95B5c3b57b81262244962BB30061B43b459B024d";
 
 export const contractABI = abi.abi;

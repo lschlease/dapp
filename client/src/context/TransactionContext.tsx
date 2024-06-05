@@ -31,6 +31,9 @@ const createEthereumContract = () => {
 
     // const signer = provider.getSigner();
 
+    console.log('contractABI',contractABI)
+    console.log('contractAddress',contractAddress)
+
     //创建智能合约交易对象
     const transactionsContract = new ethers.Contract(contractAddress, contractABI, signer);
     // getAllTransactions 
